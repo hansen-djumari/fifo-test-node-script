@@ -2,7 +2,7 @@ const axios = require("axios");
 
 let arrData = [
   JSON.stringify({
-    created_at: "2024-08-07T12:10:00",
+    transaction_date: "2024-08-07T12:10:00",
     types: "input",
     location_id: "jakarta",
     qty: 25,

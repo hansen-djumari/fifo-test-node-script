@@ -2,7 +2,7 @@ const axios = require("axios");
 
 let arrData = [
   JSON.stringify({
-    created_at: "2024-08-01T12:00:00",
+    transaction_date: "2024-08-01T12:00:00",
     types: "input",
     location_id: "jakarta",
     qty: 100,
@@ -12,7 +12,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-02T12:00:00",
+    transaction_date: "2024-08-02T12:00:00",
     types: "output",
     location_id: "jakarta",
     qty: 20,
@@ -22,7 +22,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-03T12:00:00",
+    transaction_date: "2024-08-03T12:00:00",
     types: "output",
     location_id: "jakarta",
     qty: 10,
@@ -32,7 +32,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-02T12:30:00",
+    transaction_date: "2024-08-02T12:30:00",
     types: "output",
     location_id: "jakarta",
     qty: 5,
@@ -42,7 +42,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-04T12:00:00",
+    transaction_date: "2024-08-04T12:00:00",
     types: "input",
     location_id: "jakarta",
     qty: 150,
@@ -52,7 +52,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-05T12:00:00",
+    transaction_date: "2024-08-05T12:00:00",
     types: "output",
     location_id: "jakarta",
     qty: 75,
@@ -62,7 +62,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-03T12:30:00",
+    transaction_date: "2024-08-03T12:30:00",
     types: "output",
     location_id: "jakarta",
     qty: 80,
@@ -72,7 +72,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-06T12:00:00",
+    transaction_date: "2024-08-06T12:00:00",
     types: "output",
     location_id: "jakarta",
     qty: 100,
@@ -82,7 +82,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-07T12:00:00",
+    transaction_date: "2024-08-07T12:00:00",
     types: "input",
     location_id: "jakarta",
     qty: 25,
@@ -92,7 +92,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-05T12:30:00",
+    transaction_date: "2024-08-05T12:30:00",
     types: "input",
     location_id: "jakarta",
     qty: 10,
@@ -102,7 +102,7 @@ let arrData = [
     purchase_return_id: null,
   }),
   JSON.stringify({
-    created_at: "2024-08-08T12:00:00",
+    transaction_date: "2024-08-08T12:00:00",
     types: "input",
     location_id: "jakarta",
     qty: 35,
